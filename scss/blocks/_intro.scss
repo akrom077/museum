@@ -1,0 +1,148 @@
+.intro {
+  background: #DBDBDB;
+}
+
+.intro-div {
+padding-top: 75px;
+padding-bottom: 75px;
+}
+
+.intro__heading {
+margin: 0;
+margin-bottom: 30px;
+font-family: 'Forum';
+font-style: normal;
+font-weight: 400;
+font-size: 80px;
+line-height: 90px;
+letter-spacing: 5px;
+text-transform: uppercase;
+color: #9D8665;
+}
+
+.intro__hr {
+  display: flex;
+  background-color: #710707;
+  border-radius: 0px;
+  max-width: 1400px;
+  width: 100%;
+  height: 3px;
+  margin-bottom: 40px;
+}
+
+.intro__list {
+margin: 0;
+padding: 0;
+padding-right: 30px;
+list-style: none;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+.intro__item {
+  margin-top: 75px;
+  max-width: 450px;
+  width: 100%;
+}
+
+.intro__sub-img {
+  max-width: 440px;
+  width: 100%;
+  height: 285px;
+  
+}
+
+.intro__sub-heading {
+  margin: 0;
+  margin-top: 25px;
+  font-family: 'Forum';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 35px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #000000;
+  }
+
+.intro__sub-hr {
+  display: flex;
+  max-width: 300px;
+  width: 100%;
+  height: 2px;
+  margin-top: 10px;
+  background: #710707;
+  border-radius: 0px;
+}
+
+.intro__sub-text {
+  margin-top: 10px;
+  margin-bottom: 0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 26px;
+  color: #000000;
+  
+}
+
+.intro__sub-text {
+  margin-top: 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.intro__item:nth-child(2) {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.intro__item:nth-child(5) {
+  margin-right: 10px;
+  margin-left: 10px;
+
+}
+
+
+@media only screen and (max-width: 1400px) {
+  .intro__list {
+    justify-content: space-around;
+  }
+
+  .intro__item {
+   width: 420px;
+  }
+
+  .intro__sub-img {
+  }
+}
+
+
+@media only screen and (max-width: 1025px) {
+  .intro__heading {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .intro__list {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .intro__heading {
+    text-align: center;
+  }
+
+  .intro__item:nth-child(1) {
+    margin-top:0px ;
+  }
+
+}
